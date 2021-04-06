@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius to Fahrenheit</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/thermometer-outline.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="thermometer">
+            <div class="title">
+                <h2>Celsius</h2>
+                <h2>to</h2>
+                <h2>Fahrenheit</h2>
+            </div>
+            <div class="thermometer-body">
+                <input type="number" placeholder="Celsius °C" id="inputCelsius">
+                <button onclick="calculateCelsius()" >Calculate</button>
+                <div class="result-content" id="result">
+                   
+                </div>
+            </div>
+        </div>
+        <div class="credit">
+            <h3>Developed by <a class="github" href="https://github.com/AugustoBernardes">Augusto</a></h3>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
