@@ -51,7 +51,7 @@ function calculateCelsius(){
             <div class="image">
                <img src="./assets/dead.svg">
             </div>
-            <p>Your temperature is ${calculate.toFixed(1)} Fahrenheit, your DEAD ("RIP!")</p>
+            <p>Your temperature is ${calculate.toFixed(1)} Fahrenheit, you are DEAD ("RIP!")</p>
            `
         }
     }
